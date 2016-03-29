@@ -1,0 +1,7 @@
+    WITH subquery AS (  
+        SELECT Temp, tempstate(Month, Temp) as result from carsmart  
+    )  
+
+    Select Temp, result.[Scored Labels]  
+    Into carsmartoutput  
+    From subquery  
