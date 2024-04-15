@@ -12,13 +12,13 @@
 #include <stdlib.h>
 
 const int LED = 6 ;
-char ssid[] = "LovegroveHome4"; //  Personal Wifi Name
-char pass[] = "love4griffin";   // Personal wifi password
+char ssid[] = "***"; //  Personal Wifi Name
+char pass[] = "***";   // Personal wifi password
 
 // Azure IoTHub details
-char hostname[] = "LovegroveVehicle.azure-devices.net";
-char feeduri[] = "/devices/CarSmart/messages/events?api-version=2016-02-03";
-char authSAS[] = "SharedAccessSignature sr=LovegroveVehicle.azure-devices.net&sig=d569snHf2kD0c7OlngBDSREO7FAvqr5n6fRjpTSwszM%3d&se=1490675503&skn=iothubowner";
+char hostname[] = "***";
+char feeduri[] = "***";
+char authSAS[] = "SharedAccessSignature sr=***";
 
 char message[] = "{ \"Seq\":\"0000\", \"DeviceID\":\"CarSmart\", \"Month\":\"3\", \"Temp\":\"+000\" }";
 int sequence_num = 0;
