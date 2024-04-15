@@ -2,7 +2,7 @@
 // Written by Bill Lovegrove for the hackster.io MKR1000 contest
 // Reads OBD-II data via a Sparkfun OBD-II_UART board,
 // Transmits the data to the Microsoft Azure IoT hub
-// V1.1 Mar 29, 2016
+// V1.2 Apr 15, 2024
 // Some code modelled after the examples written by Mohan Palanisamy
 // This code copyright Bill Lovegrove 3/29/2016 license: CC BY-NC-SA 3/0 
 // http://creativecommons.org/licenses/by-nc-sa/3.0/
